@@ -20,3 +20,4 @@ Proyecto: Hoja de vida (CV) modular creada con React + Vite.
 3. copiar y pegar la url en el navegador
 
 ![alt text](image.png)
+![alt text](image-1.png)
