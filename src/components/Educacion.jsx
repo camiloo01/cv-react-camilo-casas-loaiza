@@ -1,19 +1,14 @@
-export default function Educacion() {
-    const educacion = [
-    { id: 1, titulo: "Ingeniería en Sistemas", universidad: "Universidad Nacional", periodo: "2018-2022" }
-    ];
-
-    return (
+export default function Educacion({ estudios }) {
+  return (
     <section>
-        <br />
-        <h3>Educación</h3>
-        <ul>
-        {educacion.map((edu) => (
-            <li key={edu.id}>
-            <strong>{edu.titulo}</strong> - {edu.universidad} ({edu.periodo})
-            </li>
+      <h3>Educación</h3>
+      <ul>
+        {estudios.map(({ id, titulo, universidad, periodo }) => (
+          <li key={id}>
+            <strong>{titulo}</strong> - {universidad} ({periodo})
+          </li>
         ))}
-        </ul>
+      </ul>
     </section>
-    );
+  );
 }
