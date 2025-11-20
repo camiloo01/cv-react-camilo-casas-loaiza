@@ -1,21 +1,19 @@
-import CabeceraCV from "./components/CabeceraCv.jsx";
-import Perfil from "./components/perfil.jsx";
-import Experiencia from "./components/Experiencia.jsx";
+import CabeceraCV from "./components/CabeceraCV.jsx";
+import Perfil from "./components/Perfil.jsx";
 import Educacion from "./components/Educacion.jsx";
+import Experiencia from "./components/Experiencia.jsx";
+import StackTecnologias from "./components/StackTecnologias.jsx";
 
-export default function App() {
+function App() {
   return (
-    <div className="app-container">
+    <div>
       <CabeceraCV />
-      <main className="main-grid">
-        <section className="left-column">
-          <Perfil />
-        </section>
-        <section className="right-column">
-          <Experiencia />
-          <Educacion />
-        </section>
-      </main>
+      <Perfil />
+      <Educacion />
+      <Experiencia />
+      <StackTecnologias />
     </div>
   );
 }
+
+export default App;
