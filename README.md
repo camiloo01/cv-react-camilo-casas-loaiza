@@ -15,3 +15,31 @@ Proyecto: Hoja de vida (CV) modular creada con React + Vite.
 
 ![alt text](image.png)
 ![alt text](image-1.png)
+
+## Props utilizadas
+
+## CabeceraCv
+
+nombre
+
+cargo
+
+telefono
+
+correo
+
+ciudad
+
+## perfil
+
+resumen
+
+habilidades (array)
+
+## Experiencia
+
+listaExperiencia (array de objetos)
+
+## Educacion
+
+estudios (array de objetos)
